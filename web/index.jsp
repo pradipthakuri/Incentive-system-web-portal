@@ -9,9 +9,53 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <link rel="stylesheet" type="text/css" href="CSS/PBISStyleSheet.css">
+        <title>Welcome to XYZ PBIS System</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <header>[Object Oriented ANalysis and Design]</header>
+
+        <section id="indexLeftColumn">
+            <section class="selectionBox">
+                <a href="#">
+                    <span class="selectionLabelText">View Division</span>
+                </a>
+            </section>
+            
+            <section class="selectionBox">
+                <a href="#">
+                    <span class="selectionLabelText">View Work plans</span>
+                </a>
+            </section>
+            
+            <section class="selectionBox">
+                <a href="#">
+                    <span class="selectionLabelText">View Work Progress</span>
+                </a>
+            </section>
+        </section>    
+
+        <!-- Create and add form menu for the admin-->
+        <section id="indexRightColumn">
+            <section class="selectionBox">
+                <a href="#">
+                    <span class="selectionLabelText">Add New Employee</span>
+                </a>
+            </section>
+
+            <section class="selectionBox">
+                <a href="#">
+                    <span class="selectionLabelText">Create New Work plan</span>
+                </a>
+            </section>
+
+            <section class="selectionBox">
+                <a href="#">
+                    <span class="selectionLabelText">Create New Progress Report</span>
+                </a>
+            </section>
+        </section>
+
+        <footer>Pradip Shahi(11069881)  L2C2    1</footer>
     </body>
 </html>
